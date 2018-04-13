@@ -1,5 +1,5 @@
-![Screen](Assets/ScreenShots/s1.png?raw=true "Volume1")
-![Screen](Assets/ScreenShots/s2.png?raw=true "Volume2")
+![Screen](Assets/ScreenShots/s1.PNG?raw=true "Volume1")
+![Screen](Assets/ScreenShots/s2.PNG?raw=true "Volume2")
 
 # SuperVolume
 3D Random SuperVolume

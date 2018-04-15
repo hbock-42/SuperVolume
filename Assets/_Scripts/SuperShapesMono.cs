@@ -56,7 +56,7 @@ public class SuperShapesMono : MonoBehaviour
 				_currentShapes[i].m1 = MathfMore.SmootherStep(_shapes[i].m1, _nextShapes[i].m1, t1);
 				_currentShapes[i].m2 = MathfMore.SmootherStep(_shapes[i].m2, _nextShapes[i].m2, t1);
 			}
-			_shapeMesh = Shapes.SuperVolume(_radius, _currentShapes[0], _currentShapes[1], _lonRes, _latRes);
+			Shapes.UpdateSuperVolume(ref _shapeMesh, _radius, _currentShapes[0], _currentShapes[1], _lonRes, _latRes);
 			_meshFilter.mesh = _shapeMesh;
 			yield return new WaitForEndOfFrame();
 		}

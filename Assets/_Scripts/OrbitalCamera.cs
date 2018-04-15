@@ -64,7 +64,14 @@ public class OrbitalCamera : MonoBehaviour
 		// force the camera to lookAt the target
 		if (Refocus)
 		{
-			this.transform.LookAt(_target);
+			if (Vector3.Dot(this.transform.up, _target.up) < 0)
+			{
+				this.transform.LookAt(_target, -Vector3.up);
+			}
+			else
+			{
+				this.transform.LookAt(_target, Vector3.up);
+			}
 		}
 	}
 

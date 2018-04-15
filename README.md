@@ -4,7 +4,7 @@
 Creating strange volume using superfomula
 https://en.wikipedia.org/wiki/Superformula
 
-You can watch a webgl version here hbock-42.github.io
+You can watch a webgl version here https://hbock-42.github.io/
 or you can download unity3D to build or play this project
 
 Controls:
